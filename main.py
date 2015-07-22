@@ -1,7 +1,7 @@
 from flask import Flask
 app = application = Flask(__name__)
 
-@app.route("/")
+@app.route("/hi")
 def hello():
     return "Hello World!"
 
